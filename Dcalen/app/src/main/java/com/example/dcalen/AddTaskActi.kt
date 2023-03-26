@@ -35,11 +35,11 @@ class AddTaskActi : AppCompatActivity()
         titleET = findViewById(R.id.titleET)
         messageET = findViewById(R.id.messageET)
 
-        findViewById<Button>(R.id.submitandback).setOnClickListener {
+        findViewById<Button>(R.id.submitt).setOnClickListener {
             scheduleNotification()
 
         }
-        findViewById<Button>(R.id.Cancel).setOnClickListener {
+        findViewById<Button>(R.id.Backk).setOnClickListener {
             val intentt = Intent(this, MainActivity::class.java)
             startActivity(intentt)
 
