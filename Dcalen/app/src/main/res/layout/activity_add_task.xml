@@ -73,7 +73,7 @@
 
     </LinearLayout>
     <Button
-        android:id="@+id/submitandback"
+        android:id="@+id/submitt"
         android:layout_width="112dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -81,7 +81,7 @@
         android:text="ADD TASK" />
 
     <Button
-        android:id="@+id/Cancel"
+        android:id="@+id/Backk"
         android:layout_width="112dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
